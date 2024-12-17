@@ -1,0 +1,12 @@
+name: streamlit_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scikit-learn=1.2.2
+  - numpy
+  - joblib
+  - pip
+  - pip:
+      - streamlit
